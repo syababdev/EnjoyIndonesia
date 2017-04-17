@@ -48,7 +48,8 @@
                             android:gravity="fill"
                             android:textStyle="bold"
                             android:textColor="#000"
-                            android:paddingLeft="10dp"/>
+                            android:paddingLeft="10dp"
+                            android:fontFamily="sans-serif-smallcaps"/>
                     </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -61,13 +62,15 @@
                     android:layout_height="match_parent"
                     app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                     android:id="@+id/imageView4"
-                    android:layout_width="50dp" />
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="10dp"/>
 
                 <RelativeLayout
                     android:layout_width="5dp"
                     android:layout_height="50dp"
                     android:background="#000"
-                    android:layout_marginRight="10dp">
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
 
                 </RelativeLayout>
 
